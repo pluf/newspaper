@@ -1,15 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <phpunit colors="true">
 	<testsuites>
+<<<<<<< HEAD
 		<testsuite name="Basic">
 			<directory>./Basic/</directory>
+=======
+		<testsuite name="Pluf">
+			<directory>./tests/Newspaper/</directory>
+>>>>>>> release/5.9.3
 		</testsuite>
 	</testsuites>
 
 	<!-- Code coverage -->
 	<filter>
 		<whitelist addUncoveredFilesFromWhitelist="true">
+<<<<<<< HEAD
 			<directory suffix=".php">src</directory>
+=======
+			<directory suffix=".php">./src</directory>
+>>>>>>> release/5.9.3
 		</whitelist>
 	</filter>
 	<logging>
